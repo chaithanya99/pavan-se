@@ -14,7 +14,7 @@ class TestSum(unittest.TestCase):
         c = 5
         fact = factorial(c)
         
-        self.assertEqual(sum, 15)
+        self.assertEqual(sum, 20)
         self.assertEqual(fact, 120)
 
 if __name__ == '__main__':
